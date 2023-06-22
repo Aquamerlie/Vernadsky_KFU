@@ -1,0 +1,158 @@
+                                            /* Слайдер */
+/* Положение */
+#slider{
+    width: 1200px;
+    position: relative;
+    text-align: center;
+    top: 10px; 
+    overflow: hidden;
+}
+/* Центровка */
+#slider{
+    margin: 0 auto;
+    height: 730px;
+    
+}
+/* Размер изображений */
+article img{
+    width: 240px;
+    height: 200px;
+    margin-top: 15px;
+
+}
+/* Выстравивание изображений в строчку */
+article{
+    display: inline-block;
+    height: 700px;
+    vertical-align: top;
+    margin: 0 10px 0 10px;
+    
+}
+#overflow{
+    height: 550px;
+}
+.image{
+    height: 300px;
+
+}
+/* img{
+    white-space: nowrap;
+} */
+
+
+/* Переключение чекбоксов */
+#switch1:checked ~ #slides .image{
+    margin-left: -1px;
+    transform: .6s;
+}
+#switch2:checked ~ #slides .image{
+    margin-left: -885px;
+    transition: .2s;
+}
+#switch3:checked ~ #slides .image{
+    margin-left: -1697px;
+    transition: .2s;
+}
+#switch4:checked ~ #slides .image{
+    margin-left: -2485px;
+    transition: .2s;
+}
+#switch5:checked ~ #slides .image{
+    margin-left: -3285px;
+    transition: .2s;
+}
+
+                                               /* Наведение на текст */
+/* Скрытие текста */
+article > p{
+    display: none;
+}
+/* Отображение текста при наведении */
+article:hover > p
+{
+    display: block;
+
+}
+/* Рамка при наведении */
+article:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 1;
+    position: relative;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+p{
+    width: 300px;
+    height: 400px;
+    word-break: break-all;
+    font-size: 0.8em;
+}
+
+main{
+    text-align: center;
+}
+
+
+                                                /* Модельное окно */
+/* Расположение картинки при нажатии на неё */
+input[id*="img"]:checked ~ .img img{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    width: 400px;
+    height: 400px;
+}
+/* Задний фон */
+#overlay-modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: black;
+    opacity: 0.7;
+}
+/* Подключение задненго фона при нажатии */
+input[id*="img"]:checked ~ #overlay-modal {
+    display: block;
+}
+/* Отключение текста при нажатии */
+input[id*="img"]:checked ~ p{
+    display: none;
+}
+/* Фон при закритии */
+#modal-close {
+    display: none;
+    position: fixed;
+    font-size: 5em;
+    left: 90%;
+    top: 1%;
+    color: white;
+    cursor: pointer;
+    z-index: 11;
+}
+/* Подключение фона закрития при нажатии */
+input[id*="img"]:checked ~ #modal-close {
+    display: block;
+}
+/* Скрытие радибатонов */
+article input {
+    display: none;
+}
+/* Последний не скрылся, поэтому я его порешал */
+#modal-close{
+    height: 0;
+    width: 0;
+}
+
+.img img{
+    display: none;
+}
