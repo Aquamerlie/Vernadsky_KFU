@@ -1,0 +1,107 @@
+ul li{
+    list-style-type: none;
+    border: blue solid 1px;
+    width: 200px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#ul1 li:hover, #ul2 li:hover{
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+
+#ul1 li:hover + li + li{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+#ul2 li:hover ~ li:nth-last-child(n+2){
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+div.hello p.test{
+    background-color: green;
+}
+#N3 {
+    background-color: darkcyan;
+    color: white;
+}
+
+p.test, .helo{
+    background-color: green;
+}
+#N4 {
+    background-color: darkcyan;
+    color: white;
+}
+
+p > a, a.test{
+    background-color: green;
+}
+#N5 {
+    background-color: darkcyan;
+    color: white;
+}
+
+#test b ~ i{
+    background-color: green;
+}
+#N6 {
+    background-color: darkcyan;
+    color: white;
+}
+
+li > b{
+    color: green;
+}
+#N7 {
+    background-color: darkcyan;
+    color: white;
+}
+
+h2.header{
+    color: red;
+}
+h3.header{
+    color: blue;
+}
+#N8 {
+    background-color: darkcyan;
+    color: white;
+}
+
+#test h2 ~ p{
+    background-color: green;
+}
+#N9{
+    background-color: darkcyan;
+    color: white; 
+}
+
+p * i{
+    color: green;
+}
+#N10{
+    background-color: darkcyan;
+    color: white; 
+}
+
+p[title*="привет"]{
+    color: green;
+}
+#N11{
+    background-color: darkcyan;
+    color: white; 
+}
+
+img[href$=".png"]{
+    color: red;
+
+}
+
+
