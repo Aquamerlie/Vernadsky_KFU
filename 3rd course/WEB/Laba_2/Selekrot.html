@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laba_2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header><h1>Лабараторная работа 2</h1></header>
+    <main>
+        <section>
+            <h2>Задание 1</h2>
+            <p id>Повторите страницу по образцу (при наведении курсора мыши на любой элемент списка, текущий элемент окрашивается в зеленый цвет, а элемент через один от него - в красный)</p>
+            <ul id="ul1">
+                <li>1. пункт li</li>
+                <li>2. пункт li</li>
+                <li>3. пункт li</li>
+                <li>4. пункт li</li>
+                <li>5. пункт li</li>
+                <li>6. пункт li</li>
+                <li>7. пункт li</li>
+                <li>8. пункт li</li>
+                <li>9. пункт li</li>
+                <li>10. пункт li</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Задание 2</h2>
+            <p>Повторите страницу по образцу (при наведении курсора мыши на любой элемент списка, текущий элемент окрашивается в зеленый цвет, а все элементы ниже кроме последнего - в красный) </p>
+            <ul id="ul2">
+                <li>1. пункт li</li>
+                <li>2. пункт li</li>
+                <li>3. пункт li</li>
+                <li>4. пункт li</li>
+                <li>5. пункт li</li>
+                <li>6. пункт li</li>
+                <li>7. пункт li</li>
+                <li>8. пункт li</li>
+                <li>9. пункт li</li>
+                <li>10. пункт li</li>
+            </ul>
+        </section>
+         
+        <section>
+            <h2>Задание 3</h2>
+            <P>Сделайте селектор, который выберет все абзацы p с классом test из дивов div с классом hello.</P>
+            <pre id="N3">
+                <code>
+                    div.hello p.test{
+                        background-color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Задание 4</h2>
+            <p>Сделайте селектор, который выберет все абзацы p с классом test и одновременно все элементы с классом hello.</p>
+            <pre id="N4">
+                <code>
+                    p.test .helo{
+                        background-color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Задание 5</h2>
+            <p> Сделайте селектор, который выберет все a, что лежат непосредственно внутри p и одновременно все a с классом test.</p>
+            <pre id="N5">
+                <code>
+                    p > a, a.test{
+                        background-color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Задание 6</h2>
+            <p>Сделайте селектор, который выберет все i, что лежат непосредственно после b из элемента с id=test.</p>
+            <pre id="N6">
+                <code>
+                    #test b + i{
+                        background-color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Задание 7</h2>
+            <p>Дан следующий код:</p>
+            <ul>
+                <li>
+                    <i>курсив</i>
+                    <b>жирный</b>
+                    <b><i>жирный курсив</i></b>
+                </li>
+                <li>
+                    <i>курсив</i>
+                    <b>жирный</b>
+                    <b><i>жирный курсив</i></b>
+                </li>
+            </ul>
+            <p>Покрасьте в красный цвет только те теги b, которые являются непосредственными потомками тегов li.</p>
+            <pre id="N7">
+                <code>
+                    li > b{
+                        color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Задание 8</h2>
+            <p>Дан следующий код:</p>
+            <h2 class="header">заголовок</h2>
+            <h2 class="header">заголовок</h2>
+            <h3 class="header">заголовок</h2>
+            <h3 class="header">заголовок</h2>
+            <pre id="N8">
+                <code>
+                    h2.header{
+                        color: red;
+                    }
+                    h3.header{
+                        color: blue;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Задание 9</h2>
+            <p>Сделайте селектор, который выберет все абзацы p идущие после h2 из элемента с id=test.</p>
+            <pre id="N9">
+                <code>
+                    #test h2 ~ p{
+                        background-color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Здание 10</h2>
+            <p>Сделайте селектор, который выберет все i, лежащие внутри любых элементов, лежащих внутри абзаца.</p>
+            <article>
+                <p><span><i>выберет</i></span></p>
+                <p><b><i>выберет</i></b></p>
+                <p><i>не выберет</i></p>
+            </article>
+            <pre id="N10">
+                <code>
+                    p * i{
+                        color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <section>
+            <h2>Задание 11</h2>
+            <p>Сделайте селектор, который выберет все абзацы p с атрибутом title, в значении которого есть слово 'привет'.</p>
+            <p>дарова</p>
+            <p title="привет">привет </p>
+            <p title="ну здравствуйте">ну здравствуйте</p>
+            <p title=" пока привет">пока привет</p>
+            <pre id="N11">
+                <code>
+                    p[title*="привет"]{
+                        color: green;
+                    }
+                </code>
+            </pre>
+        </section>
+
+        <img src="1.png">
+        <img src="png.gif">
+        
+    </main>
+</body>
+</html>
