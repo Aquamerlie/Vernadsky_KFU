@@ -1,0 +1,228 @@
+body{
+    margin: 0 20px;
+    background-color: aliceblue;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+main > section {
+    flex-grow: 1;
+}
+
+/* Категории */
+main .category{
+    flex-basis: 160px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+main input[name="category"] {
+    display: none;
+}
+label {
+    padding: 15px;
+    text-align: center;
+    border-bottom: solid 2px white;
+    color: black;
+    font-size: 1.2em;
+}
+main .category label:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+main .category input:checked + label{
+    background-color: darkgray;
+}
+
+#b-abissinskaya:checked ~ .items > div:not(.abissinskaya){
+    opacity: 0.3;
+}
+#b-britanskaya:checked ~ .items > div:not(.britanskaya){
+    opacity: 0.3;
+}
+#b-russkaya:checked ~ .items > div:not(.russkaya){
+    opacity: 0.3;
+}
+#b-siamskaya:checked ~ .items > div:not(.siamskaya){
+    opacity: 0.3;
+}
+
+                                             /* Картинки */
+main .items{
+    flex-grow: 2;
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main .items > div img{
+    width: 100%;
+    height: 100%;
+}
+main .items > div p{
+    display: none;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+main .items > div:hover p{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* Скрытие описания */
+#b-abissinskaya:checked ~ .items > div:not(.abissinskaya):hover p{
+    display:none;
+}
+#b-britanskaya:checked ~ .items > div:not(.britanskaya):hover p{
+    display:none;
+}
+#b-russkaya:checked ~ .items > div:not(.russkaya):hover p{
+    display:none;
+}
+#b-siamskaya:checked ~ .items > div:not(.siamskaya):hover p{
+    display:none;
+}
+
+/* Расположение */
+main .items > div:nth-child(8n-7){
+    flex-basis: calc(33.3% - 7px);
+
+}
+main .items > div:nth-child(8n-6){
+    flex-basis: calc(66.6% - 3px);
+
+}
+main .items > div:nth-child(8n-5){
+    flex-basis: calc(33.3% - 7px);
+}
+main .items > div:nth-child(8n-4){
+    flex-basis: calc(33.3% - 7px);
+}
+main .items > div:nth-child(8n-3){
+    flex-basis: calc(33.3% - 6px);
+}
+main .items > div:nth-child(8n-2){
+    flex-basis: calc(66.6% - 3px);
+
+}
+main .items > div:nth-child(8n-1){
+    flex-basis: calc(33.3% - 7px);
+}
+main .items > div:nth-child(8n){
+    flex-basis: 100%;
+}
+
+                                               /* Рейтинг */
+main .rating{
+    flex-basis: 200px;
+    background-color: lightgray;
+    align-self: flex-start;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+main .rating h1{
+    text-align: center;
+}
+main .rating .rating-list {
+    display: flex;
+    flex-direction: column;
+}
+main .rating .rating-list input {
+    display: none;
+}
+main .rating .rating-list .rating-item {
+    margin-top: 1.05em;
+    padding-right: 40px;
+}
+main .rating .rating-list .rating-item span {
+    font-size: 1.1em;
+}
+main .rating .rating-list .rating-item .scale{
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    border: solid 2px white;
+    margin-top: 6px;
+}
+main .rating .rating-list .rating-item .scale::after{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-left: 200px;
+}
+
+/* Цвет и размеры */
+main .rating .rating-list input[value="1"] + div .scale{
+    background-color: green;
+    width: 20px;
+}
+main .rating .rating-list input[value="1"] + div .scale::after{
+    content: '1';
+    color: green;
+}
+
+main .rating .rating-list input[value="2"] + div .scale{
+    background-color: blue;
+    width: 40px;
+}
+main .rating .rating-list input[value="2"] + div .scale::after{
+    content: '2';
+    color: blue;
+}
+
+main .rating .rating-list input[value="3"] + div .scale{
+    background-color: gold;
+    width: 60px;
+}
+main .rating .rating-list input[value="3"] + div .scale::after{
+    content: '3';
+    color: gold;
+}
+
+main .rating .rating-list input[value="4"] + div .scale{
+    background-color: purple;
+    width: 80px;
+}
+main .rating .rating-list input[value="4"] + div .scale::after{
+    content: '4';
+    color: purple;
+}
+
+main .rating .rating-list input[value="5"] + div .scale{
+    background-color: rgb(252, 255, 104);
+    width: 100px;
+}
+main .rating .rating-list input[value="5"] + div .scale::after{
+    content: '5';
+    color: rgb(252, 255, 104);
+}
+
+/* Сортировка */
+#desc:checked ~ .rating-list input[value="5"] + .rating-item {
+    order: 1;
+}
+#desc:checked ~ .rating-list input[value="4"] + .rating-item {
+    order: 2;
+}
+#desc:checked ~ .rating-list input[value="3"] + .rating-item {
+    order: 3;
+}
+#desc:checked ~ .rating-list input[value="2"] + .rating-item {
+    order: 4;
+}
+#desc:checked ~ .rating-list input[value="1"] + .rating-item {
+    order: 5;
+}
