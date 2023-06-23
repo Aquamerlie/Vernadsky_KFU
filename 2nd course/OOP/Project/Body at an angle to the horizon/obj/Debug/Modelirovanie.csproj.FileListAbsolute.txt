@@ -1,0 +1,20 @@
+C:\IT\Программирование\Modelirovanie\bin\Debug\Modelirovanie.exe.config
+C:\IT\Программирование\Modelirovanie\bin\Debug\Modelirovanie.exe
+C:\IT\Программирование\Modelirovanie\bin\Debug\Modelirovanie.pdb
+C:\IT\Программирование\Modelirovanie\obj\Debug\Modelirovanie.csproj.AssemblyReference.cache
+C:\IT\Программирование\Modelirovanie\obj\Debug\Modelirovanie.Form1.resources
+C:\IT\Программирование\Modelirovanie\obj\Debug\Modelirovanie.Properties.Resources.resources
+C:\IT\Программирование\Modelirovanie\obj\Debug\Modelirovanie.csproj.GenerateResource.cache
+C:\IT\Программирование\Modelirovanie\obj\Debug\Modelirovanie.csproj.CoreCompileInputs.cache
+C:\IT\Программирование\Modelirovanie\obj\Debug\Modelirovanie.exe
+C:\IT\Программирование\Modelirovanie\obj\Debug\Modelirovanie.pdb
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\bin\Debug\Modelirovanie.exe.config
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\bin\Debug\Modelirovanie.exe
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\bin\Debug\Modelirovanie.pdb
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\obj\Debug\Modelirovanie.csproj.AssemblyReference.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\obj\Debug\Modelirovanie.Form1.resources
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\obj\Debug\Modelirovanie.Properties.Resources.resources
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\obj\Debug\Modelirovanie.csproj.GenerateResource.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\obj\Debug\Modelirovanie.csproj.CoreCompileInputs.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\obj\Debug\Modelirovanie.exe
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Modelirovanie\obj\Debug\Modelirovanie.pdb
