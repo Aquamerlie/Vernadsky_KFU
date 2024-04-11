@@ -1,0 +1,30 @@
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\bin\Debug\Kolonisazia_Marsa.exe.config
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\bin\Debug\Kolonisazia_Marsa.exe
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\bin\Debug\Kolonisazia_Marsa.pdb
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\obj\Debug\Kolonisazia_Marsa.csproj.AssemblyReference.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\obj\Debug\Kolonisazia_Marsa.Form1.resources
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\obj\Debug\Kolonisazia_Marsa.Properties.Resources.resources
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\obj\Debug\Kolonisazia_Marsa.csproj.GenerateResource.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\obj\Debug\Kolonisazia_Marsa.csproj.CoreCompileInputs.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\obj\Debug\Kolonisazia_Marsa.exe
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Kolonisazia_Marsa\obj\Debug\Kolonisazia_Marsa.pdb
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\bin\Debug\Kolonisazia_Marsa.exe.config
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\bin\Debug\Kolonisazia_Marsa.exe
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\bin\Debug\Kolonisazia_Marsa.pdb
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.csproj.AssemblyReference.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.Form1.resources
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.Properties.Resources.resources
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.csproj.GenerateResource.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.csproj.CoreCompileInputs.cache
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.exe
+C:\IT\Программирование\Среда разработки\Visual studio\Project\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.pdb
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\bin\Debug\Kolonisazia_Marsa.exe.config
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\bin\Debug\Kolonisazia_Marsa.exe
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\bin\Debug\Kolonisazia_Marsa.pdb
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.csproj.AssemblyReference.cache
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.Form1.resources
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.Properties.Resources.resources
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.csproj.GenerateResource.cache
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.csproj.CoreCompileInputs.cache
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.exe
+D:\Портфолио\Проекты\Компьютерное Моделирование\Моделирование\Клеточный автомат\obj\Debug\Kolonisazia_Marsa.pdb

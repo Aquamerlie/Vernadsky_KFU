@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelirovanie", "Modelirovanie.csproj", "{14382DDF-158C-46AF-AEC1-2FB26001868A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14382DDF-158C-46AF-AEC1-2FB26001868A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14382DDF-158C-46AF-AEC1-2FB26001868A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14382DDF-158C-46AF-AEC1-2FB26001868A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14382DDF-158C-46AF-AEC1-2FB26001868A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03174374-10B8-4608-A920-0860B6DFC67C}
+	EndGlobalSection
+EndGlobal
